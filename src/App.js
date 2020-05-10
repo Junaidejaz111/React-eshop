@@ -6,6 +6,7 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import SignInAndUp from './pages/sign-in-and-up/sign-in-and-up';
+import CheckoutPage from './pages/checkout/checkout.component';
 import {auth, createUserProfileDocument} from './firebase/firebase.util';
 import {setCurrentUser} from './redux/user/user.actions';
 class App extends React.Component {
@@ -38,6 +39,7 @@ componentWillUnmount(){
        <Route exact path='/' component={HomePage}/>
        <Route exact path='/Shop' component={ShopPage}/>
        <Route path='/signin' component={SignInAndUp}/>
+       <Route exact path ='/checkout' component={CheckoutPage}/>
      </Switch>
      
     </div>
