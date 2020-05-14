@@ -7,7 +7,7 @@ React-eshop is a practice project for the process of learning ReactJS.
 * redux-logger
 * reselect
 * redux-persist
-* react-stripe-checkout"
+* react-stripe-checkout
 
 
 
