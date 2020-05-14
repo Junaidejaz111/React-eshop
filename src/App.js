@@ -37,8 +37,8 @@ componentWillUnmount(){
       <Header  />
      <Switch>
        <Route exact path='/' component={HomePage}/>
-       <Route exact path='/Shop' component={ShopPage}/>
-       <Route path='/signin' component={SignInAndUp}/>
+       <Route  path='/Shop' component={ShopPage}/>
+       <Route exact path='/signin' component={SignInAndUp}/>
        <Route exact path ='/checkout' component={CheckoutPage}/>
 
      </Switch>
